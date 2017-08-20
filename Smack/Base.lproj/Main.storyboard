@@ -77,6 +77,9 @@
                             <constraint firstItem="yrM-yq-vMc" firstAttribute="top" secondItem="17r-CA-vQB" secondAttribute="top" id="sQH-l8-DgE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="menuButton" destination="3eE-mu-7vS" id="7kq-Kh-nSa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CQf-Ae-ZdW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
