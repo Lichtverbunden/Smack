@@ -1,5 +1,5 @@
 //
-//  MainVC.swift
+//  ChannelVC.swift
 //  Smack
 //
 //  Created by Ken Krippeler on 20.08.17.
@@ -8,16 +8,14 @@
 
 import UIKit
 
-class MainVC: UIViewController
+class ChannelVC: UIViewController
 {
 
     override func viewDidLoad()
     {
         super.viewDidLoad()
+
         
     }
 
- 
-
 }
-
