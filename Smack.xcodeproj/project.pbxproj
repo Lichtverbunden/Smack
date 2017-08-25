@@ -16,6 +16,8 @@
 		BE7334771F4B544E00B22FEE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7334761F4B544E00B22FEE /* GradientView.swift */; };
 		BE73347A1F4B610D00B22FEE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7334791F4B610D00B22FEE /* Constants.swift */; };
 		BE73347C1F4B621200B22FEE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE73347B1F4B621200B22FEE /* LoginVC.swift */; };
+		BE8B192B1F5052700008CC0F /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B192A1F5052700008CC0F /* AvatarPickerVC.swift */; };
+		BE8B192D1F50564D0008CC0F /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B192C1F50564D0008CC0F /* AvatarCell.swift */; };
 		BEA046C11F49DDCC00918110 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA046C01F49DDCC00918110 /* ChatVC.swift */; };
 		BEA046C31F49DDE500918110 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA046C21F49DDE500918110 /* ChannelVC.swift */; };
 		BEA046C41F49E60500918110 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA046BF1F49CA9C00918110 /* SWRevealViewController.m */; };
@@ -37,6 +39,8 @@
 		BE7334761F4B544E00B22FEE /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		BE7334791F4B610D00B22FEE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BE73347B1F4B621200B22FEE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BE8B192A1F5052700008CC0F /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		BE8B192C1F50564D0008CC0F /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		BEA046BD1F49CA9B00918110 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		BEA046BE1F49CA9C00918110 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		BEA046BF1F49CA9C00918110 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				BEA046C21F49DDE500918110 /* ChannelVC.swift */,
 				BE73347B1F4B621200B22FEE /* LoginVC.swift */,
 				BE6BE0191F4B72F90073E2F0 /* CreateAccountVC.swift */,
+				BE8B192A1F5052700008CC0F /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				BE7334761F4B544E00B22FEE /* GradientView.swift */,
 				BEC878A71F4CC0EB00F6A983 /* RoundedButton.swift */,
+				BE8B192C1F50564D0008CC0F /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA046C11F49DDCC00918110 /* ChatVC.swift in Sources */,
+				BE8B192B1F5052700008CC0F /* AvatarPickerVC.swift in Sources */,
 				BEC878A81F4CC0EB00F6A983 /* RoundedButton.swift in Sources */,
 				BEA046C31F49DDE500918110 /* ChannelVC.swift in Sources */,
 				BECF9A6D1F4DDCE100FC11CC /* UserDataService.swift in Sources */,
@@ -306,6 +313,7 @@
 				BEE2641D1F4CAE7900B4C30A /* AuthService.swift in Sources */,
 				BE73347C1F4B621200B22FEE /* LoginVC.swift in Sources */,
 				BE7334771F4B544E00B22FEE /* GradientView.swift in Sources */,
+				BE8B192D1F50564D0008CC0F /* AvatarCell.swift in Sources */,
 				BE166D5B1F49BB2700E7D313 /* AppDelegate.swift in Sources */,
 				BEA046C41F49E60500918110 /* SWRevealViewController.m in Sources */,
 				BE73347A1F4B610D00B22FEE /* Constants.swift in Sources */,
