@@ -23,6 +23,11 @@ class ChannelVC: UIViewController
         
     }
     
+    override func viewDidAppear(_ animated: Bool)
+    {
+        setupUserInfo()
+    }
+    
     @IBAction func loginButtonPressed(_ sender: UIButton)
     {
         if AuthService.instance.isLoggedIn
@@ -38,6 +43,11 @@ class ChannelVC: UIViewController
     }
     
     @objc func userDataDidChange(_ notif: Notification)
+    {
+        setupUserInfo()
+    }
+    
+    func setupUserInfo()
     {
         if AuthService.instance.isLoggedIn
         {
