@@ -23,6 +23,7 @@
 		BE7B27D61F530D3900A60A77 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7B27D41F530D3900A60A77 /* ProfileVC.xib */; };
 		BE8B192B1F5052700008CC0F /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B192A1F5052700008CC0F /* AvatarPickerVC.swift */; };
 		BE8B192D1F50564D0008CC0F /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B192C1F50564D0008CC0F /* AvatarCell.swift */; };
+		BE8D23451F5B0432007D631C /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D23441F5B0432007D631C /* ChannelCell.swift */; };
 		BEA046C11F49DDCC00918110 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA046C01F49DDCC00918110 /* ChatVC.swift */; };
 		BEA046C31F49DDE500918110 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA046C21F49DDE500918110 /* ChannelVC.swift */; };
 		BEA046C41F49E60500918110 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA046BF1F49CA9C00918110 /* SWRevealViewController.m */; };
@@ -51,6 +52,7 @@
 		BE7B27D41F530D3900A60A77 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		BE8B192A1F5052700008CC0F /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		BE8B192C1F50564D0008CC0F /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		BE8D23441F5B0432007D631C /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		BEA046BD1F49CA9B00918110 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		BEA046BE1F49CA9C00918110 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		BEA046BF1F49CA9C00918110 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				BEC878A71F4CC0EB00F6A983 /* RoundedButton.swift */,
 				BE8B192C1F50564D0008CC0F /* AvatarCell.swift */,
 				BE44C2FE1F520EAB0004BFCC /* CircleImage.swift */,
+				BE8D23441F5B0432007D631C /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7B27D51F530D3900A60A77 /* ProfileVC.swift in Sources */,
+				BE8D23451F5B0432007D631C /* ChannelCell.swift in Sources */,
 				BEA046C11F49DDCC00918110 /* ChatVC.swift in Sources */,
 				BE8B192B1F5052700008CC0F /* AvatarPickerVC.swift in Sources */,
 				BEC878A81F4CC0EB00F6A983 /* RoundedButton.swift in Sources */,
